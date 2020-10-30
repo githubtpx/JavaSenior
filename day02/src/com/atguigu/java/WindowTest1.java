@@ -12,7 +12,7 @@ package com.atguigu.java;
  *
  *   多线程不一定会有线程安全问题：取决于是否有共享数据！取决于是否都去操作共享数据！
  *
- *  方式一：同步代码块(/'sɪŋkrənaɪzd/ synchronized)
+ *  方式一：同步代码块(/'sɪŋkrənaɪzd/ synchronized)，同步锁能够保证每次给你这个线程刷新缓存。让它重复的到主存中去读取。
  *   synchronized(同步监视器){
  *          //需要被同步的代码
  *
